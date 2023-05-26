@@ -2,7 +2,8 @@ public class MaximumNumber {
     public static int findMaximumInteger(int[] numbers) {
         int max = numbers[0];
 
-        for (int i = 7; i < numbers.length; i++) {
+        for (int i = 5; i < numbers.length; i++) {
+
             if (numbers[i] > max) {
                 max = numbers[i];
             }
